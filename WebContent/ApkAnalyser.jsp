@@ -111,16 +111,9 @@ h1 {
 					<h4 class="modal-title">Upload File you want to replace.</h4>
 				</div>
 				<div class="modal-body">
-					<form method="POST" action="uploadFile"
-						enctype="multipart/form-data">
-						<p>
-							<input type="file" name="file" id="file" />
-						</p>
-						<br />
-
-						<button type="submit" class="btn btn-primary" data-dismiss="modal"
-							id="uploadbutton">Upload</button>
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<form action="uploadFile" method="post" enctype="multipart/form-data">
+						Select File:<input type="file" name="fname" id="fname" /><br /> <input
+							type="submit" value="upload" />
 					</form>
 				</div>
 			</div>
